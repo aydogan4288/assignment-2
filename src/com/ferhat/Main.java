@@ -3,24 +3,34 @@ package com.ferhat;
 public class Main {
 
     public static void main(String[] args) {
-        int[][] a = {{1,2,8},{4,5,6},{99,1,-3}};
-
-        printMax(a);
+//        int[][] a = {{1,2,8},{4,5,6},{99,1,-3}};
+//
+//        printMax(a);
 
         // Reactangle
-        Rectangle rect = new Rectangle();
-        System.out.println(rect.calculateArea(4,4));
-        rect.display();
+//        Rectangle rect = new Rectangle();
+//        System.out.println(rect.calculateArea(4,4));
+//        rect.display();
 
         //Circle
-        Circle circle = new Circle();
-        circle.calculateArea(3, 3.14);
-        circle.display();
+//        Circle circle = new Circle();
+//        circle.calculateArea(3);
+//        circle.display();
 
         //Triangle
-        Triangle tri = new Triangle();
-        tri.calculateArea(5, 5);
-        tri.display();
+//        Triangle tri = new Triangle();
+//        tri.calculateArea(5, 5);
+//        tri.display();
+
+        //Third Question
+
+        int total = 0;
+        for (String num : args)
+        {
+            int number = Integer.parseInt(num);
+            total += number;
+        }
+        System.out.print(total);
     }
 
         public static void printMax(int[][] arr){

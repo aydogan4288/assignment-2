@@ -2,11 +2,9 @@ package com.ferhat;
 
 public class Circle implements Shape {
 
-    double radius;
-    double pi = Math.PI;
 
-    public void calculateArea(double radius,double pi){
-        System.out.println((radius*radius)*pi);
+    public void calculateArea(double radius){
+        System.out.println((radius*radius)*Math.PI);
     }
 
     public void display(){
