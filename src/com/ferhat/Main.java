@@ -3,10 +3,12 @@ package com.ferhat;
 public class Main {
 
     public static void main(String[] args) {
+
+        // ---------- SECOND QUESTION ----------
 //        int[][] a = {{1,2,8},{4,5,6},{99,1,-3}};
 //
 //        printMax(a);
-
+        // ---------- THIRD QUESTION ----------
         // Reactangle
 //        Rectangle rect = new Rectangle();
 //        System.out.println(rect.calculateArea(4,4));
@@ -22,7 +24,7 @@ public class Main {
 //        tri.calculateArea(5, 5);
 //        tri.display();
 
-        //Third Question
+        // ----------FIRST QUESTION----------
 
         int total = 0;
         for (String num : args)
